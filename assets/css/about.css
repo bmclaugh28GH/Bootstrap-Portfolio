@@ -1,0 +1,15 @@
+p{
+    padding-left:20px;
+}
+.myPic{
+    float:left;
+    margin-right:4px;
+}
+.mabelPic{
+    float:right;
+    margin-bottom:8px;
+}
+.r1{
+    color: #4aaaa5;
+    height:50px;
+}
