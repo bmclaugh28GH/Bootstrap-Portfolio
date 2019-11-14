@@ -26,6 +26,7 @@ body{
 }
 .container{
     background-color:white;
+    margin-bottom:15%;
 }
 .row, p, footer {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -37,7 +38,7 @@ p{
 footer{
     position:fixed;
     bottom:0px;
-    height:80px;
+    height:15%;
     width:100%;
     background-color: #666666;
     color: white;
@@ -45,3 +46,25 @@ footer{
     font-size: 12px;
     border-top: 8px solid #4aaaa5;
 }
+
+@media screen and (max-width:768px)
+{
+    .container{
+        margin-bottom:10%;
+    }
+    nav{
+        clear:both;
+        position:static;
+        margin: 0 auto; 
+        width: 100%;
+        height:25%; 
+    }
+    .navLink{
+        float: left; 
+        margin: 10px 0; 
+        padding: 0px; 
+        width:33%;
+        text-align:center; 
+    }
+ }
+
